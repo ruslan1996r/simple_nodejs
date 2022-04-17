@@ -1,7 +1,7 @@
 const { createServer } = require('http');
 const { parse } = require("url")
 
-const PORT = 3100;
+const PORT = 8080;
 const readyMsg = () => console.log('Server on http://localhost:' + PORT);
 
 const headers = {
